@@ -1,0 +1,63 @@
+{
+    "packages": [
+        {
+            "name": "wpbones/wpbones",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpbones/WPBones.git",
+                "reference": "980237e85f6236c45010b4f9dc6511c13107a5e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/980237e85f6236c45010b4f9dc6511c13107a5e7",
+                "reference": "980237e85f6236c45010b4f9dc6511c13107a5e7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "time": "2021-10-29T14:21:55+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "WPNCEasyWP\\WPBones\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Giovambattista Fazioli",
+                    "email": "giovambattista.fazioli@gmail.com",
+                    "homepage": "http://undolog.com"
+                }
+            ],
+            "description": "WordPress framework for Laravel developers",
+            "homepage": "https://github.com/wpbones/wpbones",
+            "keywords": [
+                "framework",
+                "laravel",
+                "plugins",
+                "themes",
+                "wordpress",
+                "wpbones"
+            ],
+            "support": {
+                "issues": "https://github.com/wpbones/WPBones/issues",
+                "source": "https://github.com/wpbones/WPBones/"
+            },
+            "install-path": "../wpbones/wpbones"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

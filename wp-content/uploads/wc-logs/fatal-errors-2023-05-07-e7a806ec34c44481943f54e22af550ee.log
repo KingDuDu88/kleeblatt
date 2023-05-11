@@ -1,0 +1,429 @@
+2023-05-07T10:52:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/wptbox/wp-content/plugins/woo-wallet/includes/class-woo-wallet-settings.php:443
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Woo_Wallet_Settings->update_option__wallet_settings_general_callback()
+#1 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wptbox/wp-includes/option.php(570): do_action()
+#4 /var/www/wptbox/wp-admin/options.php(322): update_option()
+#5 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woo-wallet/includes/class-woo-wallet-settings.php on line 443
+
+2023-05-07T14:22:23+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T15:22:30+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T16:00:42+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(254) : eval()'d code on line 2
+
+2023-05-07T16:22:45+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T17:47:11+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T18:22:24+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T19:22:22+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T20:23:53+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T20:50:29+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(254) : eval()'d code:1
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(254): eval()
+#1 /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(313): Code_Snippets\Edit_Menu->test_code()
+#2 /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(151): Code_Snippets\Edit_Menu->save_posted_snippet()
+#3 /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(82): Code_Snippets\Edit_Menu->process_actions()
+#4 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Code_Snippets\Edit_Menu->load()
+#5 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/wptbox/wp-admin/admin.php(237): do_action()
+#8 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(254) : eval()'d code on line 1
+
+2023-05-07T21:22:06+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T21:26:30+00:00 CRITICAL syntax error, unexpected token ",", expecting ";" in /var/www/wptbox/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(254) : eval()'d code on line 13
+
+2023-05-07T21:34:47+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T21:34:58+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T21:35:26+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T21:35:27+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T21:35:31+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T21:36:24+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, int given in /var/www/wptbox/wp-includes/class-wp-walker.php:232
+Stack trace:
+#0 /var/www/wptbox/wp-includes/class-wp-walker.php(232): array_slice()
+#1 /var/www/wptbox/wp-includes/nav-menu-template.php(616): Walker->walk()
+#2 /var/www/wptbox/wp-includes/nav-menu-template.php(236): walk_nav_menu_tree()
+#3 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/dynamic-header.php(20): wp_nav_menu()
+#4 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#5 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#6 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#7 /var/www/wptbox/wp-content/themes/hello-elementor/header.php(37): get_template_part()
+#8 /var/www/wptbox/wp-includes/template.php(783): require_once('...')
+#9 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#10 /var/www/wptbox/wp-includes/general-template.php(48): locate_template()
+#11 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(15): get_header()
+#12 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#13 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#14 /var/www/wptbox/index.php(17): require('...')
+#15 {main}
+  thrown in /var/www/wptbox/wp-includes/class-wp-walker.php on line 232
+
+2023-05-07T22:22:11+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-07T22:23:08+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 3
+
+2023-05-07T22:24:39+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:24:42+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:24:44+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:24:57+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:25:49+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 3
+
+2023-05-07T22:27:02+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:27:03+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:27:04+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:27:13+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:27:35+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:28:07+00:00 CRITICAL syntax error, unexpected token "=", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:28:19+00:00 CRITICAL syntax error, unexpected token "." in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:28:20+00:00 CRITICAL syntax error, unexpected token "." in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:28:22+00:00 CRITICAL syntax error, unexpected token "." in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:29:47+00:00 CRITICAL syntax error, unexpected token "=" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:30:05+00:00 CRITICAL syntax error, unexpected token "=" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:31:05+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code:5
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99): eval()
+#1 /var/www/wptbox/wp-includes/shortcodes.php(355): xyz_ips_display_content()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/wptbox/wp-includes/shortcodes.php(227): preg_replace_callback()
+#4 /var/www/wptbox/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /var/www/wptbox/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#6 /var/www/wptbox/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#7 /var/www/wptbox/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#8 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#9 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#10 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#11 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#12 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#13 /var/www/wptbox/wp-content/plugins/elementor/core/base/document.php(1680): Elementor\Element_Base->print_element()
+#14 /var/www/wptbox/wp-content/plugins/elementor/core/base/document.php(1106): Elementor\Core\Base\Document->print_elements()
+#15 /var/www/wptbox/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#16 /var/www/wptbox/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#17 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#18 /var/www/wptbox/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#19 /var/www/wptbox/wp-includes/post-template.php(255): apply_filters()
+#20 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/single.php(23): the_content()
+#21 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#22 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#23 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#24 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(21): get_template_part()
+#25 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#26 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#27 /var/www/wptbox/index.php(17): require('...')
+#28 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 5
+
+2023-05-07T22:31:06+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code:5
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99): eval()
+#1 /var/www/wptbox/wp-includes/shortcodes.php(355): xyz_ips_display_content()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/wptbox/wp-includes/shortcodes.php(227): preg_replace_callback()
+#4 /var/www/wptbox/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /var/www/wptbox/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#6 /var/www/wptbox/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#7 /var/www/wptbox/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#8 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#9 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#10 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#11 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#12 /var/www/wptbox/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#13 /var/www/wptbox/wp-content/plugins/elementor/core/base/document.php(1680): Elementor\Element_Base->print_element()
+#14 /var/www/wptbox/wp-content/plugins/elementor/core/base/document.php(1106): Elementor\Core\Base\Document->print_elements()
+#15 /var/www/wptbox/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#16 /var/www/wptbox/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#17 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#18 /var/www/wptbox/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#19 /var/www/wptbox/wp-includes/post-template.php(255): apply_filters()
+#20 /var/www/wptbox/wp-content/themes/hello-elementor/template-parts/single.php(23): the_content()
+#21 /var/www/wptbox/wp-includes/template.php(785): require('...')
+#22 /var/www/wptbox/wp-includes/template.php(718): load_template()
+#23 /var/www/wptbox/wp-includes/general-template.php(204): locate_template()
+#24 /var/www/wptbox/wp-content/themes/hello-elementor/index.php(21): get_template_part()
+#25 /var/www/wptbox/wp-includes/template-loader.php(106): include('...')
+#26 /var/www/wptbox/wp-blog-header.php(19): require_once('...')
+#27 /var/www/wptbox/index.php(17): require('...')
+#28 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 5
+
+2023-05-07T22:33:14+00:00 CRITICAL syntax error, unexpected variable "$current_user", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 5
+
+2023-05-07T22:33:18+00:00 CRITICAL syntax error, unexpected variable "$current_user", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 5
+
+2023-05-07T22:33:52+00:00 CRITICAL syntax error, unexpected token "." in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:34:55+00:00 CRITICAL syntax error, unexpected token "echo" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 2
+
+2023-05-07T22:36:03+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 3
+
+2023-05-07T22:36:26+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 3
+
+2023-05-07T22:36:30+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 3
+
+2023-05-07T22:41:02+00:00 CRITICAL syntax error, unexpected token "echo" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 6
+
+2023-05-07T22:41:24+00:00 CRITICAL syntax error, unexpected token "echo" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 6
+
+2023-05-07T22:41:53+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 6
+
+2023-05-07T22:54:06+00:00 CRITICAL syntax error, unexpected variable "$msg", expecting "," or ";" in /var/www/wptbox/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(99) : eval()'d code on line 10
+
+2023-05-07T23:22:22+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+

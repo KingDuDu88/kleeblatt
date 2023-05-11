@@ -1,0 +1,42 @@
+<b>6.0  SINGLE DOMAIN SSL 0 - http://kleeblatt.games</b>
+Domain covered:
+["kleeblatt.games","www.kleeblatt.games"]
+
+[07-05-2023 03:00:29] :
+No account found, attempting to create account.
+
+[07-05-2023 03:00:34] :
+LEClient finished constructing
+
+[07-05-2023 03:00:34] :
+No order found for 'kleeblatt.games'. Creating new order.
+
+[07-05-2023 03:00:34] :
+Created order for 'kleeblatt.games'.
+
+Offering manual verification procedure. 
+
+
+https://dns.google.com/resolve?name=_acme-challenge.kleeblatt.games&amp;type=TXT should return RF2NdeqoCIU2ih1bI1jUZXKtd7SAgh6mQz2xSB1S9p4 -&gt; OK
+
+
+https://dns.google.com/resolve?name=_acme-challenge.www.kleeblatt.games&amp;type=TXT should return g7bdNMtgoiUUc6D6IKnXHN-eCtR4igaWROxq9w7LkAE -&gt; OK
+
+Local check - All DNS challenges verified
+
+[07-05-2023 03:03:25] :
+LEClient finished constructing
+
+[07-05-2023 03:03:25] :
+Order object is {"status":"pending","expires":"2023-05-14T03:00:34Z","identifiers":[{"type":"dns","value":"kleeblatt.games"},{"type":"dns","value":"www.kleeblatt.games"}],"authorizations":["https:\/\/acme-v02.api.letsencrypt.org\/acme\/authz-v3\/225633951007","https:\/\/acme-v02.api.letsencrypt.org\/acme\/authz-v3\/225633951017"],"finalize":"https:\/\/acme-v02.api.letsencrypt.org\/acme\/finalize\/1097360667\/180630657917"}
+
+Starting DNS verification
+Finalizing the order
+[07-05-2023 03:03:59] :
+Order for 'kleeblatt.games' finalized.
+
+Getting SSL certificates
+[07-05-2023 03:03:59] :
+Certificate for 'kleeblatt.games' saved
+
+<h2>SSL Certificate generated successfully!</h2>

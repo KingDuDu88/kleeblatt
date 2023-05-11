@@ -1,0 +1,401 @@
+2023-05-08T00:22:48+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T01:23:37+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T02:26:03+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T03:29:34+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T04:28:08+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T05:22:02+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T06:22:20+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T07:22:33+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T08:27:26+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T09:22:19+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T10:22:55+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/OrdersProvider.php(31): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/OrderCountRuleProcessor.php(34): Automattic\WooCommerce\Admin\RemoteInboxNotifications\OrdersProvider->get_order_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/RuleEvaluator.php(71): Automattic\WooCommerce\Admin\RemoteInboxNotifications\OrderCountRuleProcessor->process()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/EvaluateAndGetStatus.php(37): Automattic\WooCommerce\Admin\RemoteInboxNotifications\RuleEvaluator->evaluate()
+#7 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/SpecRunner.php(44): Automattic\WooCommerce\Admin\RemoteInboxNotifications\EvaluateAndGetStatus::evaluate()
+#8 /var/www/wptbox/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/RemoteInboxNotificationsEngine.php(121): Automattic\WooCommerce\Admin\RemoteInboxNotifications\SpecRunner::run_spec()
+#9 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Events.php(152): Automattic\WooCommerce\Admin\RemoteInboxNotifications\RemoteInboxNotificationsEngine::run()
+#10 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Events->do_wc_admin_daily()
+#11 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#12 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#14 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T10:24:41+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T10:30:35+00:00 CRITICAL syntax error, unexpected identifier "QTx0533uzP1KxpYnTJ3tfNfiorrLiLb" in /var/www/wptbox/wp-content/themes/hello-elementor/functions.php on line 18
+
+2023-05-08T10:34:25+00:00 CRITICAL syntax error, unexpected variable "$hash" in /var/www/wptbox/wp-content/themes/hello-elementor/functions.php on line 19
+
+2023-05-08T11:27:50+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T11:59:48+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /var/www/wptbox/wp-content/plugins/wallet-system-for-woocommerce/common/class-wallet-system-for-woocommerce-common.php:1010
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/wallet-system-for-woocommerce/common/class-wallet-system-for-woocommerce-common.php(964): Wallet_System_For_Woocommerce_Common->wps_wsfw_wallet_active_users_count()
+#1 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Wallet_System_For_Woocommerce_Common->wsfw_wpswings_wallet_tracker_send_event()
+#2 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#4 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#5 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/wallet-system-for-woocommerce/common/class-wallet-system-for-woocommerce-common.php on line 1010
+
+2023-05-08T12:23:33+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T13:25:02+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T14:22:21+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T15:23:25+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T17:34:39+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T18:35:09+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T19:26:32+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T20:50:08+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T22:19:32+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T22:38:25+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
+2023-05-08T23:22:39+00:00 CRITICAL Uncaught Exception: Invalid data store. in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:107
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /var/www/wptbox/wp-content/plugins/woocommerce/includes/wc-order-functions.php(378): WC_Data_Store::load()
+#2 [internal function]: wc_orders_count()
+#3 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(116): array_map()
+#4 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(164): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_orders_count()
+#5 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(345): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->get_current_milestone()
+#6 /var/www/wptbox/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/OrderMilestones.php(358): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->can_be_added()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Internal\Admin\Notes\OrderMilestones->possibly_add_note()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-cron.php(188): do_action_ref_array()
+#11 {main}
+  thrown in /var/www/wptbox/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 107
+
